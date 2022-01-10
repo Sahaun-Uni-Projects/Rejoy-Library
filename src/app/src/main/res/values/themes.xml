@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RejoyLibrary" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/c_black1</item>
+        <item name="colorPrimaryVariant">@color/c_black2</item>
+        <item name="colorOnPrimary">@color/c_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/c_red4</item>
+        <item name="colorSecondaryVariant">@color/c_red2</item>
+        <item name="colorOnSecondary">@color/c_black1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/c_black2</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+    </style>
+
+    <style name="Theme.RejoyLibrary.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

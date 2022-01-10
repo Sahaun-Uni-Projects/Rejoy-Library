@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/navMenuHomeGroup"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/navExplore"
+            android:icon="@drawable/ic_baseline_explore_24"
+            android:title="Explore" />
+    </group>
+
+    <group
+        android:id="@+id/navMenuProfileGroup"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/navProfile"
+            android:icon="@drawable/ic_baseline_profile_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/navWallet"
+            android:icon="@drawable/ic_baseline_wallet_24"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/navSubscription"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="Subscription" />
+        <item
+            android:id="@+id/navInventory"
+            android:icon="@drawable/ic_baseline_inventory_24"
+            android:title="Inventory" />
+        <item
+            android:id="@+id/navWishlist"
+            android:icon="@drawable/ic_baseline_wishlist_24"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/navContact"
+            android:icon="@drawable/ic_baseline_contact_24"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/navSignout"
+            android:icon="@drawable/ic_baseline_signout_24"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
